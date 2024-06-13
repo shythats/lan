@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Arena</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        header {
+            background-color: #1f1f1f;
+            color: #f05454;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #393e46;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+        }
+        nav a {
+            color: #eeeeee;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #f05454;
+            color: #393e46;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 20px 0;
+            margin: 20px 0;
+            background-color: #222831;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #1f1f1f;
+            color: #eeeeee;
+            margin-top: 20px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.7);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services li {
+            background-color: #393e46;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        }
+        .services li:hover {
+            background-color: #f05454;
+            color: #393e46;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo Pixel Arena" class="logo">
+        <h1>Benvenuti alla Pixel Arena</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contatti">Contatti</a>
+        <a href="#galleria">Galleria</a>
+        <a href="#servizi">Servizi</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Benvenuti alla Pixel Arena, il posto perfetto per gli appassionati di giochi e tecnologia. Venite a trovarci per un'esperienza unica!</p>
+            <img src="hero_image.jpg" alt="Immagine della sala LAN" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>La nostra Pixel Arena è attrezzata con le più moderne tecnologie per offrirvi un'esperienza di gioco senza paragoni. Il nostro staff è sempre pronto ad aiutarvi e a garantire che tutto funzioni alla perfezione. Ci dedichiamo a creare un ambiente accogliente e divertente per tutti i giocatori, dai principianti agli esperti.</p>
+            <img src="about_image.jpg" alt="Immagine della sala LAN" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+        </section>
+
+        <section id="contatti">
+            <h2>Contatti</h2>
+            <div class="contact-info">
+                <p>Telefono: 123-456-7890</p>
+                <p>Email: info@pixelarena.com</p>
+                <p>Indirizzo: Via dei Giocatori, 10, Città, CAP</p>
+            </div>
+            <img src="contact_image.jpg" alt="Immagine della sala LAN" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+        </section>
+
+        <section id="galleria" class="gallery">
+            <h2>Galleria</h2>
+            <img src="immagine1.jpg" alt="Immagine 1">
+            <img src="immagine2.jpg" alt="Immagine 2">
+            <img src="immagine3.jpg" alt="Immagine 3">
+        </section>
+
+        <section id="servizi" class="services">
+            <h2>Servizi</h2>
+            <p>Offriamo una vasta gamma di servizi per i nostri clienti, tra cui:</p>
+            <ul>
+                <li>Postazioni di gioco all'avanguardia con sedie ergonomiche e periferiche di alta qualità</li>
+                <li>Connessione internet ad alta velocità per garantire un'esperienza di gioco senza interruzioni</li>
+                <li>Eventi e tornei settimanali con premi esclusivi</li>
+                <li>Servizio di ristorazione e snack con una vasta selezione di bevande e cibo</li>
+                <li>Supporto tecnico dedicato per risolvere qualsiasi problema tecnico rapidamente</li>
+                <li>Spazio per riunioni e eventi privati su prenotazione</li>
+            </ul>
+            <img src="services_image.jpg" alt="Immagine dei servizi" style="width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pixel Arena. Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+</html>
